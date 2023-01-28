@@ -1,0 +1,44 @@
+*{
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body{
+  padding: 1rem 6rem;
+}
+/* navigation section */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menus{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 0;
+  width: 30%;
+}
+li{
+  margin: auto 0;
+}
+a{
+  text-decoration: none;
+  color:hsl(273, 4%, 51%);
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin: 0;
+}
+
+.plans{
+  border: 1.5px solid hsl(270, 9%, 17%);
+  padding: .3rem 1.1rem;
+  z-index: 99999999999999999999999999999999999;
+}
+
+.plans a{
+  color: hsl(270, 9%, 17%)
+}
+
+/* banner section */
