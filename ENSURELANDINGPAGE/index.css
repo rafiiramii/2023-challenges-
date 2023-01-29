@@ -68,7 +68,14 @@ h2{
   margin: 0 auto;
   padding-bottom: 1rem;
 }
-
+h3{
+  font-size:3.5rem;
+  font-weight: 600;
+  letter-spacing: .04rem;
+  line-height:3.8rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
 p, a{
   font-size: .95rem;
   font-family: 'Work Sans', sans-serif;
@@ -166,6 +173,7 @@ a{
 }
 .banner p::after{
   content: url("./images/bg-pattern-intro-right-desktop.svg");
+  opacity: .8;
   position: absolute;
   right: -1rem;
   top: -3rem;
@@ -177,6 +185,7 @@ a{
   left: -1rem;
   top: 33rem;
   z-index:99999 !important;
+  opacity: .8;
 }
 .banner .plans{
   border-color: white !important;
@@ -222,4 +231,36 @@ a{
   color: hsl(273, 4%, 51%);
   width: 360px;
   margin-top: 1rem;
+}
+/* cta section */
+.cta{
+  background-color:hsl(256, 26%, 20%) ;
+  margin:  4rem 9rem !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3.5rem 4rem ;
+}
+.cta h3{
+  color: white;
+  width: 49%;
+  margin: 0 ;
+}
+.cta h3::before{
+  content: url("./images/bg-pattern-how-we-work-desktop.svg");
+  position: absolute;
+  right: 9rem;
+  margin-top: -3.5rem;
+  z-index:99999 !important;
+  opacity: .8;
+}
+.cta .plans{
+  border-color: white !important;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 3rem;
+}
+.cta a{
+  color: white !important;
+  font-size: .9rem;
 }
