@@ -1,5 +1,5 @@
 *{
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Work Sans', sans-serif;
   /* border: 2px solid red; */
 }
@@ -51,6 +51,7 @@ table {
 }
 
 h1, h2{
+  overflow: hidden;
   font-family: 'DM Serif Display', serif !important;
 }
 h1{
@@ -58,13 +59,21 @@ h1{
   letter-spacing: .04rem;
   line-height:4.7rem;
   margin: 0 auto;
+  padding-bottom: 2rem;
+}
+h2{
+  font-size:4rem;
+  letter-spacing: .04rem;
+  line-height:4.7rem;
+  margin: 0 auto;
   padding-bottom: 1rem;
 }
+
 p, a{
-  font-size: .99rem;
+  font-size: .95rem;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: .01rem;
-  line-height:1.88rem;
+  line-height:1.8rem;
 }
 
 /* navigation section */
@@ -124,6 +133,7 @@ a{
   z-index: 333;
   margin: 0 !important ;
   box-sizing: border-box;
+  margin-top: 3rem !important;
 
 }
 .introText{
@@ -158,14 +168,14 @@ a{
   content: url("./images/bg-pattern-intro-right-desktop.svg");
   position: absolute;
   right: -1rem;
-  top: -5rem;
+  top: -3rem;
   z-index:99999 !important;
 }
 .banner p::before{
   content: url("./images/bg-pattern-intro-left-desktop.svg");
   position: absolute;
   left: -1rem;
-  top: 30rem;
+  top: 33rem;
   z-index:99999 !important;
 }
 .banner .plans{
@@ -175,4 +185,41 @@ a{
 }
 .banner a{
   color: white !important;
+}
+
+/* about us section */
+.aboutUs{
+  margin-top: 8rem;
+  padding: 8rem 9rem;
+
+}
+.aboutUs h2::before{
+  content: "";
+  display: block;
+  background-color:  hsla(270, 40%, 33%, 0.512);
+  width: 170px;
+  height: 1px;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+.ourValues{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.ourValues h3{
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+  text-align: left !important;
+  margin-top: 2rem;
+  letter-spacing: .04rem;
+}
+.ourValues img{
+  margin: 0 auto !important;
+}
+.ourValues p{
+  color: hsl(273, 4%, 51%);
+  width: 360px;
+  margin-top: 1rem;
 }
