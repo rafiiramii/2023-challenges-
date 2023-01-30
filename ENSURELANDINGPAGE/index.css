@@ -121,16 +121,13 @@ a{
   font-size: .77rem;
   margin: 0;
 }
-
 .plans{
   border: 1.5px solid hsl(270, 9%, 17%);
   padding: .3rem 1.1rem;
 }
-
 .plans a{
   color: hsl(270, 9%, 17%)
 }
-
 /* banner section */
 .banner{
   padding: 8rem 9rem;
@@ -236,6 +233,7 @@ a{
 .cta{
   background-color:hsl(256, 26%, 20%) ;
   margin:  4rem 9rem !important;
+  margin-bottom: 9rem !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -273,7 +271,6 @@ footer{
   background-color: hsl(0, 0%, 98%);
   z-index: 333;
   margin: 0 !important ;
-  margin-top: 3rem !important;
 }
 .footerLogo{
   display: flex;
