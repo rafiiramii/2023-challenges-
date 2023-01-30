@@ -264,3 +264,63 @@ a{
   color: white !important;
   font-size: .9rem;
 }
+/* Footer section */
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 9rem;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 98%);
+  z-index: 333;
+  margin: 0 !important ;
+  margin-top: 3rem !important;
+}
+.footerLogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: .7rem;
+}
+.line{
+  border-top: 1px solid hsla(276, 4%, 51%, 0.287);
+  width: 1150px;
+  margin-top: 1rem;
+}
+.socialMedia{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.footerMenus{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+
+}
+.footerMenus::after{
+  content: url("./images/bg-pattern-footer-desktop.svg");
+  position: absolute;
+  left: -1.2rem;
+  margin-top: -10.8rem;
+  z-index:99999 !important;
+  opacity: .8;
+}
+.footerMenus div{
+  display: flex;
+  flex-direction: column;
+}
+.footerMenus h5{
+  font-size: .89rem;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: .01rem;
+  line-height:1.8rem;
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 1.5rem;
+}
+.footerMenus a{
+  font-size: .85rem;
+  color: unset !important;
+}
